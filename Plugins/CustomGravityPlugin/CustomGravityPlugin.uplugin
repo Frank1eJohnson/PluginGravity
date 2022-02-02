@@ -1,0 +1,25 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Custom Gravity Plugin",
+	"Description": "Custom Gravity Plugin with gameplay examples.",
+	"Category": "Gameplay",
+	"CreatedBy": "Zhongqi Shan.",
+	"CreatedByURL": "https://twitter.com/Sabrave",
+	"DocsURL": "http://ue4resources.com/",
+	"MarketplaceURL": "https://github.com/sabrave",
+	"SupportURL": "mailto:ue4resources@gmail.com",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "CustomGravityPlugin",
+			"Type": "Runtime",
+			"LoadingPhase": "PreDefault"
+		}
+	]
+}

@@ -1,10 +1,12 @@
-// Copyright 2019 Zhongqi Shan (Sabrave). All Rights Reserved.
-//******************* http://ue4resources.com/ *********************//
-
+//==========================================================================//
+// Copyright Zhongqi Shan (ue4resources@gmail.com). All Rights Reserved.
+//================== http://unrealengineresources.com/ =====================//
 
 #include "Pawns/ThirdPersonCharacter.h"
-#include <GameFramework/SpringArmComponent.h>
+#include "GameFramework/SpringArmComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 #include "Pawns/CustomPawn.h"
+#include "GameFramework/PawnMovementComponent.h"
 
 
 AThirdPersonCharacter::AThirdPersonCharacter(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)

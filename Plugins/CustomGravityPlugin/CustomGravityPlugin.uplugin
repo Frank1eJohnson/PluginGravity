@@ -7,14 +7,13 @@
 	"Category": "Gameplay",
 	"CreatedBy": "Zhongqi Shan.",
 	"CreatedByURL": "https://twitter.com/Sabrave",
-	"DocsURL": "http://ue4resources.com/",
-	"MarketplaceURL": "https://github.com/sabrave",
+	"DocsURL": "https://unrealengineresources.com/documentation",
+	"MarketplaceURL": "https://unrealengineresources.com/plugins",
 	"SupportURL": "mailto:ue4resources@gmail.com",
-	"EngineVersion": "4.26.0",
-	"CanContainContent": false,
+	"CanContainContent": true,
 	"IsBetaVersion": false,
 	"IsExperimentalVersion": false,
-	"Installed": true,
+	"Installed": false,
 	"Modules": [
 		{
 			"Name": "CustomGravityPlugin",

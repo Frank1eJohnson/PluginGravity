@@ -1,14 +1,15 @@
-// Copyright 2019 Zhongqi Shan (Sabrave). All Rights Reserved.
-//******************* http://ue4resources.com/ *********************//
-
+//==========================================================================//
+// Copyright Zhongqi Shan (ue4resources@gmail.com). All Rights Reserved.
+//================== http://unrealengineresources.com/ =====================//
 
 #include "Pawns/CustomPawn.h"
-#include <Components/CapsuleComponent.h>
-#include <GameFramework/SpringArmComponent.h>
-#include <Camera/CameraComponent.h>
-#include <Components/SkeletalMeshComponent.h>
-#include <Components/SkinnedMeshComponent.h>
-#include <Components/ArrowComponent.h>
+#include "Components/CapsuleComponent.h"
+#include "GameFramework/SpringArmComponent.h"
+#include "Camera/CameraComponent.h"
+#include "Components/SkeletalMeshComponent.h"
+#include "Components/SkinnedMeshComponent.h"
+#include "Components/ArrowComponent.h"
+#include "Components/CustomMovementComponent.h"
 
 
 // Sets default values

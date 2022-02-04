@@ -1,12 +1,13 @@
-// Copyright 2019 Zhongqi Shan (Sabrave). All Rights Reserved.
-//******************* http://ue4resources.com/ *********************//
-
+//==========================================================================//
+// Copyright Zhongqi Shan (ue4resources@gmail.com). All Rights Reserved.
+//================== http://unrealengineresources.com/ =====================//
 
 
 #include "Components/CustomMovementComponent.h"
 #include "Objects/CustomGravityManager.h"
-#include <Components/PrimitiveComponent.h>
-#include <Components/CapsuleComponent.h>
+#include "Components/PrimitiveComponent.h"
+#include "Components/CapsuleComponent.h"
+#include "Actors/PlanetActor.h"
 
 
 

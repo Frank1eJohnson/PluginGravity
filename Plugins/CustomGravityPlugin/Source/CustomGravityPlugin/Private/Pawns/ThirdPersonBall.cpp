@@ -1,14 +1,15 @@
-// Copyright 2019 Zhongqi Shan (Sabrave). All Rights Reserved.
-//******************* http://ue4resources.com/ *********************//
-
+//==========================================================================//
+// Copyright Zhongqi Shan (ue4resources@gmail.com). All Rights Reserved.
+//================== http://unrealengineresources.com/ =====================//
 
 #include "Pawns/ThirdPersonBall.h"
-#include <Components/CapsuleComponent.h>
-#include <Components/PrimitiveComponent.h>
-#include <PhysicsEngine/BodyInstance.h>
-#include <Components/StaticMeshComponent.h>
+#include "Components/CapsuleComponent.h"
+#include "Components/PrimitiveComponent.h"
+#include "PhysicsEngine/BodyInstance.h"
+#include "Components/StaticMeshComponent.h"
 #include "Pawns/CustomPawn.h"
 #include "Components/CustomMovementComponent.h"
+#include "Components/SkeletalMeshComponent.h"
 
 
 AThirdPersonBall::AThirdPersonBall(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer)
@@ -39,8 +40,8 @@ AThirdPersonBall::AThirdPersonBall(const FObjectInitializer& ObjectInitializer) 
 void AThirdPersonBall::UpdateMeshRotation(float DeltaTime)
 {
 
-	const float Speed = GetMovementComponent() ? GetMovementComponent()->GetCurrentWalkSpeed() : 0.0f;
-	const FVector RollVelocity = GetMovementComponent() ? GetMovementComponent()->GetMovementVelocity() : FVector::ZeroVector;
+	const float Speed = GetCustomMovementComponent() ? GetCustomMovementComponent()->GetCurrentWalkSpeed() : 0.0f;
+	const FVector RollVelocity = GetCustomMovementComponent() ? GetCustomMovementComponent()->GetMovementVelocity() : FVector::ZeroVector;
 
 	if (Speed > MinVelocityToRotateBall)
 	{

@@ -1,5 +1,6 @@
-// Copyright 2019 Zhongqi Shan (Sabrave). All Rights Reserved.
-//******************* http://ue4resources.com/ *********************//
+//==========================================================================//
+// Copyright Zhongqi Shan (ue4resources@gmail.com). All Rights Reserved.
+//================== http://unrealengineresources.com/ =====================//
 
 #pragma once
 
